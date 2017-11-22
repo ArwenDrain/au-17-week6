@@ -1,0 +1,112 @@
+div {
+  position: absolute;
+  overflow: scroll;
+}
+
+section {
+  float: left;
+  width: 15vw;
+  height: 45vw;
+  text-align: center;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-white {
+  background-color: white;
+  border: solid;
+  border-width: thin;
+  border-color: gainsboro
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.bg-darkred {
+  background-color: darkred
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+ul {
+  
+  list-style-type: none;
+  padding: 0;
+}
+
+.swatches li {
+  text-align: center;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  margin: .5rem;
+  float: left;
+}
+
+
+h6 {
+  clear: both;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+.strikethrough {
+  text-decoration: line-through;
+  color: black;
+}
+
+.reg {
+  font-weight: bold;
+}
+/*div {
+  width: 5vw;
+  height: 10vw;
+  background-color: red;
+  -webkit-transition: width 2s;
+  transition: width 2s, height 4s;
+  transition-timing-function: ease;
+  
+}
+
+div:hover {
+  width: 10vw;
+  height: 15vw;
+}
+*/
